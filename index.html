@@ -18,26 +18,31 @@
     </div>
 
     <div class="container" id="search-box">
+        <header><h3>Search Parameters</h3></header>
         <form>
             <div class="form-group">
-              <label for="exampleInputEmail1">Email address</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-              <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+              <label for="inputSearchTerm">Search Term:</label>
+              <input class="form-control" id="search-term">
             </div>
             <div class="form-group">
-              <label for="exampleInputPassword1">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <label for="inputSearchNum">Number of Records to Retrieve:</label>
+              <input class="form-control" id="num-records">
             </div>
-            <div class="form-group form-check">
-              <input type="checkbox" class="form-check-input" id="exampleCheck1">
-              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            <div class="form-group">
+                <label for="startYear">Start Year (Optional):</label>
+                <input class="form-control" id="start-year">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <div class="form-group">
+                <label for="endYear">End Year (Optional):</label>
+                <input class="form-control" id="end-year">
+            </div>
+            <button type="search" class="btn btn-primary">Search</button>
+            <button type="clear" class="btn btn-primary">Clear Results</button>
         </form>
     </div>
 
     <div class="container" id="top-articles-box">
-        
+
     
     </div>
 
